@@ -12,4 +12,8 @@ public class DummyController {
     public String getDummy(){
         return "Hii";
     }
+    @GetMapping("/say-hello")
+    public String sayHello(){
+        return "Hello";
+    }
 }
